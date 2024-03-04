@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image: url(../img/moon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.info{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    padding-top: 50px;
+}
+.status header{
+    color: #333;
+    font-size: 50px;
+    font-weight: 600;
+}
+.section{
+    display: flex;
+    align-items: end;
+    font-size: 14px;
+    color: #333;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: antiquewhite;
+}
+section a{
+    color: #333;
+}
